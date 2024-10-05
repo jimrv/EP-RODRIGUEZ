@@ -60,6 +60,10 @@ namespace EP_RODRIGUEZ.Controllers
             return RedirectToAction(nameof(Index));
         }
 
+        public IActionResult List(){
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
