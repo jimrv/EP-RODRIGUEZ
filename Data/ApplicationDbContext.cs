@@ -9,4 +9,5 @@ public class ApplicationDbContext : IdentityDbContext
         : base(options)
     {
     }
+    public DbSet<EP_RODRIGUEZ.Models.Remesas> DataRemesas { get; set; }
 }
