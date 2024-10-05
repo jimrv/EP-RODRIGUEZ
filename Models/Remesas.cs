@@ -14,8 +14,8 @@ namespace EP_RODRIGUEZ.Models
         public string? Destino { get; set; }
         public string? Monto { get; set; }
         public string? TipoM { get; set; }
-        public string? Tasa { get; set; } 
-        public string? MontoF { get; set; } 
-        public string? EstadoT { get; set; }      
+        public string? Tasa { get; set; }
+        public string? MontoF { get; set; }
+        public string? EstadoT { get; set; }
     }
 }
